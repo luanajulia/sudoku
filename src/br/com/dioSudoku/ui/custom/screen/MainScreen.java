@@ -27,7 +27,7 @@ public class MainScreen {
 
     private final BoardService boardService;
     private final NotifierService notifierService;
-    private final List<NumberText> allNumberFields = new ArrayList<>(); // Armazenar todos os NumberText
+    private final List<NumberText> allNumberFields = new ArrayList<>(); 
 
     private JButton checkGameStatusButoon;
     private JButton finishGameButoon;
