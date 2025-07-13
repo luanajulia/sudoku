@@ -64,7 +64,7 @@ public class NumberText extends JTextField implements EventListener {
 
                 String text = getText();
                 if (text.isEmpty()){
-                    space.clearSpace(); // Limpa o valor no objeto 'space'
+                    space.clearSpace();
                     return;
                 }
                 try {
