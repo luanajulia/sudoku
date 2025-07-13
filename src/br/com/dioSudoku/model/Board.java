@@ -113,7 +113,7 @@ public class Board {
                             if (seenValuesInBlock.contains(value)) {
                                 uniqueErrorSpaces.add(currentSpace);
                                 for (int prevR = blockRow * 3; prevR <= r; prevR++) {
-                                    for (int prevC = blockCol * 3; prevC < ((prevR == r) ? c : (blockCol * 3) + 3); prevC++) { // Garante que não vai além do 'c' atual na mesma linha
+                                    for (int prevC = blockCol * 3; prevC < ((prevR == r) ? c : (blockCol * 3) + 3); prevC++) { 
                                         if (spaces.get(prevR).get(prevC).getActual() != null && spaces.get(prevR).get(prevC).getActual().equals(value)) {
                                             uniqueErrorSpaces.add(spaces.get(prevR).get(prevC));
                                         }
